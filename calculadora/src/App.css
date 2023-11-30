@@ -1,0 +1,45 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.buttom {
+  display: flex; 
+  flex-direction:column; 
+  background-color: black;
+}
+button:hover{
+  cursor: pointer;
+}
+
+
+.line {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px; 
+}
+
+button {
+  display: flex;
+  background-color: black;
+  color: white;
+  width: 75px;
+  height: 75px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin: 5px; 
+}
+.tela h1{
+  display: flex;
+  background-color: black;
+  color: white;
+  width: 75px;
+  height: 75px;
+  margin-left: 285px;
+  margin-top: 50px;
+}
